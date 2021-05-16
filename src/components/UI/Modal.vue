@@ -13,6 +13,12 @@
         <div class="modal-body">
           <slot name="body"></slot>
         </div>
+
+        <!-- footer -->
+        <div class="modal-body">
+          <slot name="footer"></slot>
+        </div>
+
       </div>
     </div>
   </transition>
@@ -27,7 +33,6 @@ export default {
       required: true
     }
   },
-  // закрытие модалки по ESC
   mounted() {
     document.body.addEventListener('keyup', e => {
       if (e.key === 'Escape') this.$emit('close')

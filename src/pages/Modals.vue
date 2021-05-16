@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper-content wrapper-content--fixed">
-
     <section>
       <div class="container">
         <!-- <h1>Modals Page</h1> -->
@@ -44,7 +43,6 @@
         
       </div>
     </section>
-
   </div>
 </template>
 
@@ -78,13 +76,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.btn {
-  margin-right: 1em;
-  margin-bottom: 1em;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-</style>
