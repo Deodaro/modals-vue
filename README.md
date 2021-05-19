@@ -1,6 +1,9 @@
 # modals-vue
 Модальные окна на Vue. Учебный проект.
 
+## Демо
+https://deodaro.github.io/modals-vue/
+
 ## Project setup
 ```
 npm install
@@ -15,6 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
