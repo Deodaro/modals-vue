@@ -10,10 +10,6 @@ import NotFound from '@/pages/404'
 import Modals from '@/pages/Modals'
 import LoginReg from '@/pages/LoginReg'
 
-// Modals
-import Login from '@/components/Login'
-import Registration from '@/components/Registration'
-
 // Routering
 export default new Router({
   routes: [
@@ -36,16 +32,6 @@ export default new Router({
       path: '/login-reg',
       name: 'login-reg',
       component: LoginReg
-    },
-    {
-      path: '/login-reg/login',
-      name: 'login',
-      component: Login
-    },
-    {
-      path: '/login-reg/reg',
-      name: 'reg',
-      component: Registration
-    },
+    }
   ]
 })

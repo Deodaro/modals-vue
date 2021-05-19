@@ -39,8 +39,7 @@
 
     <div slot="footer">
       <!-- link -->
-      <!-- <button class="link btn-link" @click="$emit('toRegistration', 'close')">I need an account</button> -->
-      <!-- <a class="link" @click="$emit('toRegistration')">I need an account</a> -->
+      <button class="link btn-link" @click="$emit('switch')">I need an account</button>
     </div>
 
   </modal>
@@ -87,6 +86,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-</style>

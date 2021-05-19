@@ -51,11 +51,7 @@
 
     <div slot="footer">
       <!-- link -->
-      <!-- <button class="link btn-link" @click="$emit('toLogin')">I already have an account</button> -->
-      <!-- <button class="link btn-link" @click="$emit('go-to-login')">I already have an account</button> -->
-      <!-- <button class="link btn-link" v-on:click="tologin">I already have an account</button> -->
-      <!-- <button class="link btn-link" @click="tologin('login', $event)">I already have an account</button> -->
-
+      <button class="link btn-link" @click="$emit('switch')">I already have an account</button>
     </div>
 
   </modal>

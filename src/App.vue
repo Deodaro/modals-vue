@@ -51,10 +51,6 @@ export default {
   &:first-of-type {
     margin-left: 0;
   }
-  // .btn-link {
-  //   margin: 0;
-
-  // }
 }
 
 .btn-link {
